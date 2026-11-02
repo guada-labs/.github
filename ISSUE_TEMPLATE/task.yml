@@ -43,15 +43,10 @@ body:
       description: Blocked by / blocks. Use issue references.
     validations:
       required: false
-  - type: dropdown
+  - type: input
     id: phase
     attributes:
-      label: Phase
-      description: Which project phase does this belong to?
-      options:
-        - F0 — Seams
-        - F1 — Sovereign minimum
-        - F2 — Optimize
-        - F3 — Empower
+      label: Phase or milestone
+      description: Optional. Project-specific phase or milestone.
     validations:
-      required: true
+      required: false
